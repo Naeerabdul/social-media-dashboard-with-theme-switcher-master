@@ -1,0 +1,433 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.bg {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.contrner {
+  max-width: 75%;
+  margin: auto;
+}
+
+.contrne {
+  max-width: 75%;
+  margin: auto;
+  position: relative;
+  top: -125px;
+}
+
+.up {
+  width: 100%;
+  height: 40vh;
+  background: hsl(231, 20%, 19%);
+}
+
+.heder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0px;
+}
+
+.te {
+  letter-spacing: 1px;
+}
+
+.white {
+  color: white;
+}
+
+.text {
+  font-weight: bold;
+  color: hsl(228, 34%, 66%);
+}
+
+.logo {
+  font-size: 2rem;
+  padding-bottom: 8px;
+}
+
+/* done start */
+.done {
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1.5rem;
+}
+
+/* card1 start */
+.img1 {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 span {
+  margin-left: 8px;
+}
+
+.div {
+  padding-top: 5px;
+}
+
+.card1 {
+  border-radius: 5px;
+  border-top: hsl(208, 92%, 53%) solid 6px;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card1 p {
+  text-align: center;
+}
+
+.num {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.paragraf {
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+
+.tpday {
+  color: green;
+  margin: 2rem;
+}
+
+/* card1 end */
+/* card2 start */
+.img2 {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img2 span {
+  margin-left: 8px;
+}
+
+.card2 {
+  border-radius: 5px;
+  border-top: hsl(208, 92%, 53%) solid 6px;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card2 p {
+  text-align: center;
+}
+
+/* card2 end */
+/* card3 start */
+.img3 {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img3 span {
+  margin-left: 8px;
+}
+
+.card3 {
+  border-radius: 5px;
+  border-top: solid 6px;
+  background-color: hsl(228, 28%, 20%);
+  border-image: linear-gradient(95deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+
+.card3 p {
+  text-align: center;
+}
+
+/* card3 end */
+/* card4 start */
+.img4 {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img4 span {
+  margin-left: 8px;
+}
+
+.card4 {
+  border-radius: 5px;
+  border-top: red solid 6px;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card4 p {
+  text-align: center;
+}
+
+/* card4 end */
+.pp h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 4rem 0px 2rem 0px;
+}
+
+/*  small card start*/
+.ned {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.col1 {
+  background-color: hsl(228, 28%, 20%);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.col1 .dis1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.col1 .dis2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col1 .dis1 p {
+  color: hsl(228, 34%, 66%);
+  font-weight: bold;
+}
+
+.col1 .dis2 p {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.col1 .dis2 div {
+  color: rgb(16, 177, 48);
+}
+
+.dark-mode-position span {
+  color: hsl(228, 34%, 66%);
+  font-weight: bold;
+}
+
+/*  small card end*/
+.red {
+  color: red;
+}
+
+.dark-mode-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode-position span {
+  padding-right: 20px;
+}
+
+/* media end */
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ned {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contrne {
+    max-width: 85%;
+  }
+
+  .contrner {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 415px) {
+  .ned {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contrne {
+    max-width: 90%;
+    top: 0px;
+  }
+
+  .heder {
+    display: block;
+  }
+
+  .after::after {
+    content: "";
+    position: absolute;
+    margin: 10px;
+    width: 80%;
+    border-bottom: 2px hsl(228, 34%, 66%) solid;
+  }
+
+  .up {
+    height: auto;
+  }
+
+  .dark-mode-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+/* media end */
+/* tolge switch js start */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: hsl(231, 20%, 19%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* tolge switch js end */
+/*on clcik dark mode  */
+.dark-mode-onclick .slider:before {
+  background-color: rgb(255, 253, 253);
+}
+
+.dark-mode-onclick .slider:before {
+  background-color: rgb(255, 253, 253);
+}
+
+.dark-mode-onclick .switch1 {
+  display: inline-block;
+  background-color: black;
+}
+
+.dark-mode-onclick .white {
+  color: rgb(26, 24, 24);
+}
+
+.dark-mode-onclick .col1 .dis2 p {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+}
+
+.dark-mode-onclick .up {
+  background: hsl(225, 100%, 98%);
+}
+
+.dark-mode-onclick .bg {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.dark-mode-onclick .card1 {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.dark-mode-onclick .card2 {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.dark-mode-onclick .card3 {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.dark-mode-onclick .card4 {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.dark-mode-onclick .col1 {
+  background-color: hsl(227, 47%, 96%);
+}
+
+/*  */
